@@ -19,7 +19,7 @@ function Navbar() {
         return () => window.removeEventListener('resize', updateWindowWidth);
     }, []);
 
-    // Function to handle click on the hamburger menu icon
+
     const handleMenuClick = () => {
         setClick(!click);
     };
@@ -28,7 +28,7 @@ function Navbar() {
         <>
         <nav className="navbar">
             <div className="navbar-container">
-            <Link to="/" className="navbar-logo">
+            <Link to="/" className="navbar-logo" onClick={closeMenu}>
                 Josh Thalappillil <span className='logo'><i className="fa-solid fa-code"/></span>
             </Link>
             {windowWidth <= 960 ? (
@@ -36,7 +36,7 @@ function Navbar() {
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
             ) : (
-                <ul className="nav-menu">
+                <ul className={`nav-menu ${click ? 'nav-menu-active' : ''}`}>
                 <li className='nav-item'>
                     <Link to='/' className='nav-links' onClick={closeMenu}>
                     Home
