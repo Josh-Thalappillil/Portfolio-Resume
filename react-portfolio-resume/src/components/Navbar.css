@@ -8,7 +8,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.5);
 }
 
 .navbar-container {
@@ -31,6 +31,7 @@
     align-items: center;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
+    white-space: nowrap;
 }
 
 .role {

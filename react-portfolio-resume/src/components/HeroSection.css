@@ -6,9 +6,18 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    position: relative; 
+    z-index: 1;
 
 }
-
-.hero-container h1 {
+.hero-container p {
+    color: white;
+}
+.intro {
     font-size: 2rem;
+    color: white;
+}
+
+.fsdev {
+    color: yellowgreen;
 }
