@@ -1,5 +1,5 @@
 .navbar {
-    background: #323a4e;
+    background: white;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -8,30 +8,33 @@
     position: sticky;
     top: 0;
     z-index: 999;
-  }
-  
-  .navbar-container {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80px;
     max-width: 1500px;
-  }
-  
-  .navbar-logo {
-    color: white;
+
+}
+
+.navbar-logo {
+    color: #323a4e;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: flex;
     align-items: center;
-    font-family: 'Bodoni Moda', serif;
-  }
-  
-  .lastname {
-    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.role {
+    color: #323a4e;
     justify-self: start;
     margin-left: 10px;
     cursor: pointer;
@@ -39,31 +42,31 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
-    font-family: 'Bodoni Moda', serif;
-  }
-  
-  .role {
-    color: white;
-    justify-self: start;
-    margin-left: 10px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
-    font-family: 'Bodoni Moda', serif;
-  }
-  
-  .logo {
+    font-family: "Roboto", sans-serif;
+}
+
+.logo {
     margin-left: 0.5em;
-  }
-  
-  .fa-typo3 {
+    padding-right: 20px;
+}
+
+.fa-code {
     margin-left: 0.5rem;
     font-size: 1.8rem;
-  }
-  
-  .nav-menu {
+    color: rgb(144, 228, 18);
+}
+
+.fa-bars {
+    color: #323a4e;
+}
+.fa-bars {
+    color: #323a4e;
+}
+
+.fa-times {
+    color: #323a4e;
+}
+.nav-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-gap: 10px;
@@ -72,58 +75,74 @@
     width: 60vw;
     justify-content: end;
     margin-right: 2rem;
-  }
-  
-  .nav-item {
+}
+
+.nav-item {
     height: 80px;
-  }
-  
-  .nav-links {
-    color: #fff;
+}
+
+.nav-links {
+    color: #323a4e;
     display: flex;
     align-items: center;
     text-align: center;
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
-    text-transform: uppercase;
-    background-image: linear-gradient(
-      -225deg,
-      #EEE6E6 0%,
-      #D2CBCB 29%,
-      #AE9E9E 67%,
-      #8B7E7E 100%
-    );
     background-size: auto auto;
     background-clip: border-box;
     background-size: 200% auto;
+    color: #323a4e;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+}
+.nav-menu.dropdown {
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 1rem; 
+    z-index: 999;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5)
+}
+
+
+.nav-menu.dropdown li {
+    display: block;
+    margin-bottom: 1rem; 
+}
+
+
+.nav-menu.dropdown li a {
+    color: #323a4e;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
+    display: block;
+    padding: 0.5rem;
+}
+
+
+
+.nav-links-mobile {
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: transparent;
     color: #fff;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: textclip 2s linear infinite;
-        font-size: 30px;
-        font-family: 'Bodoni Moda', serif;
-  }
-  
-  
-    .nav-links-mobile {
-      display: block;
-      text-align: center;
-      margin: 2rem auto;
-      border-radius: 4px;
-      width: 80%;
-      text-decoration: none;
-      font-size: 1.5rem;
-      background-color: transparent;
-      color: #fff;
-      padding: 14px 20px;
-      border: 1px solid #fff;
-      transition: all 0.3s ease-out;
+    padding: 14px 20px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
     }
-  
-    .nav-links-mobile:hover {
-      background: #fff;
-      color: #242424;
-      transition: 250ms;
-    }
+
+.nav-links-mobile:hover {
+    background: #fff;
+    color: #323a4e;
+    transition: 250ms;
+}
