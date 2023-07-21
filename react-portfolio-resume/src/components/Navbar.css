@@ -93,8 +93,13 @@
     background-clip: border-box;
     background-size: 200% auto;
     color: #323a4e;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: "Roboto", sans-serif;
+}
+
+.nav-links:hover{
+    color: #fff;
+    background-color: black;
 }
 .nav-menu.dropdown {
     display: block;
@@ -130,7 +135,7 @@
 }
 
 .nav-menu.dropdown li:hover{
-    background-color: #6b7cad;
+    background-color: #888a8f;
 }
 .nav-menu.dropdown li a:hover{
     color: #fff;
