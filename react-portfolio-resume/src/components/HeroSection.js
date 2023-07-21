@@ -2,26 +2,20 @@ import React from 'react';
 import { Button } from './Button';
 import '../App.css';
 import './HeroSection.css';
+import './Button.css';
 
 function HeroSection() {
     return (
         <>
           <div className='hero-container'>
-            <h1>hello world</h1>
-            <div>
+            <h1>hello world, I'm Josh</h1>
+            <h1></h1>
+            <div className='hero-btns'>
               <Button
-                className='btns'
+                className='btn'
                 buttonStyle='btn--outline'
-                buttonSize='btn--large'
-              >
-                Test Button
-              </Button>
-              <Button
-                className='btns'
-                buttonStyle='btn--primary'
-                buttonSize='btn--large'
-              >
-                Test Button2
+                buttonSize='btn--large'>
+                View Projects
               </Button>
             </div>
           </div>

@@ -5,7 +5,7 @@ import HeroSection from '../HeroSection';
 function Home () {
     return (
         <>
-            {/* <HeroSection /> */}
+            <HeroSection />
         </>
     );
 };
