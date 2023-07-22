@@ -28,7 +28,7 @@
 }
 
 .underline {
-    width: 220px;
+    width: 150px;
     height: 4px;
     background-color: yellowgreen;
     margin: 10px auto;
@@ -62,7 +62,7 @@
 .about-contents .about-image {
     display: flex;
     align-items: center;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 
 .about-contents img {

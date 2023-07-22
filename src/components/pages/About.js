@@ -19,10 +19,10 @@ function About() {
       <div className='about-contents'>
         <div className='about-text'>
           <h1>Hello, my name is Josh.</h1>
-          <p>I am a passionate software developer and recent graduate with a hunger for innovation.<br/>
-            Skilled in diverse programming languages and committed to continuous learning.
-            Collaborative<br/> team player ready to make a positive impact through technology. 
-            Excited to contribute my<br/> skills to challenging projects and thrive in dynamic environments.</p>
+          <p>I am a passionate software developer, with a hunger for innovation.<br/>
+            I am skilled in a diverse range of programming languages and committed <br/> to continuous learning.
+            A collaborative team player ready to make a  positive <br/> impact through technology. 
+            Excited to contribute my skills to challenging<br/> projects and thrive in dynamic environments.</p>
         </div>
         <div className='about-image'>
           <img src="/images/about-me.jpg" alt="aboutMeImg" />
