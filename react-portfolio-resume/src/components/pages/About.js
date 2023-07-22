@@ -1,8 +1,12 @@
-import React from 'react';
 import '../../App.css';
 import './about.css';
+import React, { useEffect } from 'react';
 
 function About() {
+  useEffect(() => {
+    document.title = "Josh's Portfolio | About"; 
+  }, []);
+
   return (
     <div className='about-container'>
       <div className='about-content'>
