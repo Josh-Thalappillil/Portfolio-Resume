@@ -1,8 +1,14 @@
 import React from 'react';
 import '../../App.css';
+import './pages.css';
 
 function About() {
-    return <h1 className='about'>work</h1>;
+  return (
+    <div className='about-container'>
+        <h1>About Me</h1>
+        <div className='underline'></div>
+    </div>
+  );
 }
 
 export default About;

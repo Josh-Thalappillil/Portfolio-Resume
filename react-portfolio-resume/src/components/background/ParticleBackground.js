@@ -12,6 +12,7 @@ const ParticleBackground = () => {
     console.log(container);
   };
   return (
+    <div className="particle-background">
     <Particles
       id="tsparticles"
       init={particlesInit}
@@ -255,6 +256,7 @@ const ParticleBackground = () => {
         }
       }
     />
+    </div>
   );
 };
 
