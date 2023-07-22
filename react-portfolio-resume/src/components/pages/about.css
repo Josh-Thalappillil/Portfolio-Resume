@@ -1,0 +1,78 @@
+.about-container {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.about-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.about-header i {
+    color: greenyellow;
+    font-size: 2rem;
+    margin-left: 15px;
+}
+
+.underline {
+    width: 220px;
+    height: 4px;
+    background-color: yellowgreen;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.about-contents {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 80px;
+}
+.about-contents h1 {
+    font-size: 1.5rem;
+    color: yellowgreen;
+    line-height: 3;
+}
+.about-contents p {
+    font-size: 1rem;
+    color: #fff;
+    line-height: 2;
+}
+
+.about-contents .about-image {
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+}
+
+.about-contents img {
+    height: auto;
+    max-width: 500px;
+    border-radius: 50px;
+}
+
+.techSkills {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
