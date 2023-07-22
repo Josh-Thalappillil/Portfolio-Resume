@@ -12,6 +12,7 @@
 }
 .hero-container p {
     color: white;
+    line-height: 4;
 }
 .intro {
     font-size: 2rem;
