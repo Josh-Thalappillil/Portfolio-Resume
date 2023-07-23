@@ -48,7 +48,7 @@ function About() {
             <i className='fa-solid fa-briefcase'></i>
             <h2>Work Experience</h2>
             <p><strong>Datacom - Software Developer</strong><br/>Date: 2022 - Present</p>
-            <p><strong>Royal Melbourne Hospital - Health Information Manager</strong><br/>Date: 2021 - 2022</p>
+            <p><strong>Royal Melbourne Hospital - Information Manager</strong><br/>Date: 2021 - 2022</p>
             <ul>
               <li></li>
             </ul>
