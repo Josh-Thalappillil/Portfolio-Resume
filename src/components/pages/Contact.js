@@ -4,13 +4,17 @@ import './contact.css';
 
 function Contact() {
     useEffect(() => {
-        document.title = "Josh's Portfolio | Contact"; 
+        document.title = "Contact | Josh's Portfolio"; 
     }, []);
 
     return (
         <>
             <div className='hero-container'>  
-                <h1 className='fsdev'>&lt;Contact me&gt;</h1>
+                <div className='about-header'>
+                    <h1>Contact me</h1>
+                    <i className="fa-solid fa-envelope fa-beat"></i>
+                </div>
+                <div className='underline'></div>
                 <p>Feel free to email me <strong style={{ color: 'yellowgreen' }}>@jthalappillil7@gmail.com</strong> <br/>Or connect with me on LinkedIn & GitHub</p>
                 <div class='logo-container'>
                     <a href='https://github.com/Josh-Thalappillil'>

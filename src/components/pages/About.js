@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 
 function About() {
   useEffect(() => {
-    document.title = "Josh's Portfolio | About"; 
+    document.title = "About | Josh's Portfolio"; 
   }, []);
 
   return (

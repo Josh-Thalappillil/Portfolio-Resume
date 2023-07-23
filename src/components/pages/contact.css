@@ -23,19 +23,25 @@
     color: yellowgreen;
 }
 
-
-/* Add the following CSS for the logo container */
 .logo-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px; /* Add some space between the text and the logos */
+    margin-top: 20px; 
     background-color: white;
     border-radius: 10px;
 }
 
-/* Optional styling for the logos */
+
 .logo-container img {
-    margin: 5px; /* Add some space between the logos */
+    margin: 5px; 
     
+}
+
+.underline {
+    width: 200px;
+    height: 4px;
+    background-color: yellowgreen;
+    margin: 10px auto;
+    border-radius: 2px;
 }
