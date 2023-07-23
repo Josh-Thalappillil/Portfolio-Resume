@@ -1,0 +1,41 @@
+.hero-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative; 
+    z-index: 1;
+
+}
+.hero-container p {
+    color: white;
+    line-height: 4;
+}
+.intro {
+    font-size: 2rem;
+    color: white;
+}
+
+.fsdev {
+    color: yellowgreen;
+}
+
+
+/* Add the following CSS for the logo container */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Add some space between the text and the logos */
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Optional styling for the logos */
+.logo-container img {
+    margin: 5px; /* Add some space between the logos */
+    
+}
