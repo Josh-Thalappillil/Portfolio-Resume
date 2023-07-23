@@ -48,7 +48,7 @@ function About() {
             <i className='fa-solid fa-briefcase'></i>
             <h2>Work Experience</h2>
             <p><strong>Datacom - Software Developer</strong><br/>Date: 2022 - Present</p>
-            <p><strong>Royal Melbourne Hospital - Information Manager</strong><br/>Date: 2021 - 2022</p>
+            <p><strong>Royal Melbourne Hospital - Health Information Manager</strong><br/>Date: 2021 - 2022</p>
             <ul>
               <li></li>
             </ul>
@@ -59,7 +59,7 @@ function About() {
             <i class="fa-solid fa-graduation-cap"></i>
             <h2>Education & Training</h2>
             <p><strong>Odin Project Coding Bootcamp</strong><br/>Date: 2022</p>
-            <p><strong>La Trobe University - Double Bachelor's Degree of Health Information Management & Health Sciences</strong><br/>Date: 2018 - 2021</p>
+            <p><strong>La Trobe University - Double Bachelor's Degree of Information Management & Health Sciences</strong><br/>Date: 2018 - 2021</p>
             <p><strong>Skillsoft Percipio - Training Platform</strong> <br/>Completed Credentials:</p>
             <ul className='percipiolist'>
               <li>Track 1: Agile Foundations</li>
