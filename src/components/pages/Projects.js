@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import '../../App.css';
+import Cards from '../Cards'
 
 function Projects() {
     useEffect(() => {
@@ -7,7 +8,7 @@ function Projects() {
     }, []);
 
     return (
-        <div></div>
+        <Cards />
     );
 }
 
