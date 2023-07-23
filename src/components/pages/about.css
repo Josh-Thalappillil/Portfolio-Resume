@@ -55,7 +55,7 @@
 }
 .about-contents p {
     font-size: 1rem;
-    color: #fff;
+    color: #cccccc;
     line-height: 2;
 }
 
@@ -72,7 +72,85 @@
 }
 
 .techSkills {
+    margin-top: 80px;
     font-size: 1rem;
+    color: #cccccc;
+}
+
+.techSkills h1 {
+    margin-top: 80px;
+    font-size: 2rem;
     font-weight: bold;
     color: #fff;
+}
+
+.techSkills ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 20px;
+    line-height: 2;
+    text-align: left;
+}
+
+.techSkills li {
+    font-size: 1rem;
+}
+
+
+.workExp {
+    margin-top: 80px;
+    font-size: 1rem;
+    color: #cccccc;
+}
+
+.workExp h1 {
+    margin-top: 80px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.workExp .underline {
+    width: 200px;
+    height: 4px;
+    background-color: yellowgreen;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+
+.workExpContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.workExpSection,
+.educationSection {
+    flex: 1;
+}
+
+.workExpSection h2,
+.educationSection h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.workExpSection p,
+.educationSection p {
+    font-size: 1rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.percipiolist {
+    text-align: left;
+    margin-left: 150px;
+    width: 300px;
+    line-height: 1.8;
+}
+
+.fa-briefcase, .fa-graduation-cap {
+    color: yellowgreen;
+    font-size: 2rem;
 }
