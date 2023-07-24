@@ -23,6 +23,9 @@ function About() {
             I am skilled in a diverse range of programming languages and committed <br/> to continuous learning.
             A collaborative team player ready to make a  positive <br/> impact through technology. 
             Excited to contribute my skills to challenging<br/> projects and thrive in dynamic environments.</p>
+          <a className='resume-link' href='./resume/Resume - Josh Thalappillil.pdf' target='_blank'>
+            <i className='fa-solid fa-file fa-beat'></i> View Resume
+          </a>
         </div>
         <div className='about-image'>
           <img src="/images/about-me.jpg" alt="aboutMeImg" />
@@ -36,7 +39,7 @@ function About() {
           <li><strong>Frameworks:</strong> React, Node.js</li>
           <li><strong>Developer Tools:</strong> Git, VS Code, Visual Studio, IntelliJ, PyCharm</li>
           <li><strong>Libraries:</strong> tsParticles, Bootstrap</li>
-          <li><strong>Certifications:</strong> Microsoft Azure Fundamentals AZ-900 (in progress)</li>
+          <li><strong>Certifications (in progress):</strong> Microsoft Azure Fundamentals AZ-900,<br/> AWS Cloud Practitioner, AWS Associate Developer</li>
         </ul>
       </div>
       <div className='workExp'>
@@ -58,27 +61,10 @@ function About() {
           <div className='educationSection'>
             <i class="fa-solid fa-graduation-cap"></i>
             <h2>Education & Training</h2>
-            <p><strong>Odin Project Coding Bootcamp</strong><br/>Date: 2022</p>
+            <p><strong>The Odin Project Coding Bootcamp</strong><br/>Date: 2022</p>
             <p><strong>La Trobe University - Double Bachelor's Degree of Information Management & Health Sciences</strong><br/>Date: 2018 - 2021</p>
-            <p><strong>Skillsoft Percipio - Training Platform</strong> <br/>Completed Credentials:</p>
-            <ul className='percipiolist'>
-              <li>Track 1: Agile Foundations</li>
-              <li>Agile Foundations: Fundamentals</li>
-              <li>Agile Principles and Methodologies</li>
-              <li>Agile Foundations: Scrum Methodology</li>
-              <li>Final Exam: Agile Foundations</li>
-              <li>JavaScript: Getting Started with JavaScript Programming</li>
-              <li>JavaScript: Introduction</li>
-              <li>JavaScript: Types, Operators & Control Structures in JavaScript</li>
-              <li>JavaScript: Functions & Arrays in JavaScript</li>
-              <li>Programming Fundamentals: Object-oriented Programming</li>
-              <li>Getting Started with Java: The fundamentals of Java Programming</li>
-              <li>Modelling Entities in Java: Getting Started with Classes & Objects</li>
-              <li>Mapping Relationships in Java: Modelling Is-a Relationships Using Inheritance</li>
-              <li>Mapping Relationships in Java: Constructors & Polymorphism</li>
-              <li>Programming in C#: Managing Program Flow</li>
-              <li>Programming in C#: Creating Types</li>
-            </ul>
+            <p><strong>Skillsoft Percipio - Training Platform</strong></p>
+            <a class='creds' href='https://skillsoft.digitalbadges.skillsoft.com/profile/joshthalappillil/wallet'>View Completed Credentials</a>
           </div>
         </div>
       </div>
