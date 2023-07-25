@@ -21,8 +21,8 @@ function About() {
           <h1>Hello, my name is Josh.</h1>
           <p>I am a passionate software developer, with a hunger for innovation.<br/>
             I am skilled in a diverse range of programming languages and committed <br/> to continuous learning.
-            A collaborative team player ready to make a  positive <br/> impact through technology. 
-            Excited to contribute my skills to challenging<br/> projects and thrive in dynamic environments.</p>
+            I enjoy collaboration and hope to make a  positive <br/> impact through technology. 
+            I am excited to contribute my skills to challenging<br/> projects and thrive in dynamic environments.</p>
           <a className='resume-link' href='./resume/Resume - Josh Thalappillil.pdf' target='_blank'>
             <i className='fa-solid fa-file fa-beat'></i> View Resume
           </a>
