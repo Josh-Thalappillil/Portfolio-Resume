@@ -4,7 +4,7 @@ import Cards from '../Cards'
 
 function Projects() {
     useEffect(() => {
-        document.title = "Josh's Portfolio | Projects"; 
+        document.title = "Projects | Josh's Portfolio"; 
     }, []);
 
     return (
