@@ -39,7 +39,7 @@ function About() {
           <li><strong>Frameworks:</strong> React, Node.js</li>
           <li><strong>Developer Tools:</strong> Git, VS Code, Visual Studio, IntelliJ, PyCharm</li>
           <li><strong>Libraries:</strong> tsParticles, Bootstrap</li>
-          <li><strong>Certifications (in progress):</strong> Microsoft Azure Fundamentals AZ-900,<br/> AWS Cloud Practitioner, AWS Associate Developer</li>
+          <li><strong>Certifications (in progress):</strong> AWS Cloud Practitioner and AWS Associate Developer</li>
         </ul>
       </div>
       <div className='workExp'>
