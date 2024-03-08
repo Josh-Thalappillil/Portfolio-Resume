@@ -22,7 +22,7 @@ function About() {
           <p>I am a passionate software developer, with a hunger for innovation.<br/>
             I am skilled in a diverse range of programming languages and committed <br/> to continuous learning.
             I enjoy collaboration and hope to make a  positive <br/> impact through technology. 
-            I am excited to contribute my skills to challenging<br/> projects and thrive in dynamic environments.</p>
+            I am currently a Software Developer at Datacom<br/> where I am improving my skills as a Full Stack Developer.</p>
           <a className='resume-link' href='./resume/Resume - Josh Thalappillil.pdf' target='_blank'>
             <i className='fa-solid fa-file fa-beat'></i> View Resume
           </a>
@@ -35,11 +35,10 @@ function About() {
         <h1>Technical Skills</h1>
         <div className='underline'></div>
         <ul>
-          <li><strong>Languages:</strong> C#, JavaScript, HTML/CSS, Java</li>
-          <li><strong>Frameworks:</strong> React, Node.js</li>
+          <li><strong>Languages:</strong> Python, TypeScript, C#, JavaScript, HTML/CSS, Java</li>
+          <li><strong>Frameworks:</strong> Angular, PrimeNG, Django, React, Node.js</li>
           <li><strong>Developer Tools:</strong> Git, VS Code, Visual Studio, IntelliJ, PyCharm</li>
           <li><strong>Libraries:</strong> tsParticles, Bootstrap</li>
-          <li><strong>Certifications (in progress):</strong> AWS Cloud Practitioner and AWS Associate Developer</li>
         </ul>
       </div>
       <div className='workExp'>
@@ -50,7 +49,7 @@ function About() {
           <div className='workExpSection'>
             <i className='fa-solid fa-briefcase'></i>
             <h2>Work Experience</h2>
-            <p><strong>Datacom - Software Developer</strong><br/>Date: 2023 - Present</p>
+            <p><strong>Datacom - Graduate Software Developer</strong><br/>Date: 2023 - Present</p>
             <p><strong>Royal Melbourne Hospital - Health Information Manager</strong><br/>Date: 2021 - 2022</p>
             <ul>
               <li></li>
