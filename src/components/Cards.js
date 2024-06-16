@@ -21,12 +21,13 @@ function Cards() {
               path='https://josh-thalappillil.github.io/SnakeGame/'
               />
               <CardItem 
-              src='images/Guess-Game.jpg'
-              text='Guess Game'
-              details='Object-Oriented Programming, variable declaration, console logging, constructor usage, looping, method invocation and conditional statements.'
-              label='C#'
-              path='https://github.com/Josh-Thalappillil/GuessGame'
+              src='images/pokedex.png'
+              text='Pokedex'
+              details='Demonstrated proficiency in JavaScript, HTML & CSS. Proficiency in leveraging APIs, handling asynchronous operations, and dynamically rendering data to create an interactive web application showcasing Pokemon information.'
+              label='HTML & CSS, JS'
+              path='https://pokedex-one-kappa-18.vercel.app/'
               />
+              
             </ul>
             <ul className='cards__items'>
               <CardItem 
@@ -37,11 +38,11 @@ function Cards() {
               path='https://github.com/Josh-Thalappillil/LottoCheck'
               />
               <CardItem 
-              src='images/odin-rps.jpg'
-              text='Odin Rock Paper Scissors'
-              details='Demonstrated proficiency in JavaScript, DOM manipulation, event handling, and logical problem-solving while employing clean coding practices, including code organisation, commenting, and modularisation for improved maintainability.'
-              label='HTML & CSS, JS'
-              path='https://josh-thalappillil.github.io/odin-rock-paper-scissors/'
+              src='images/Guess-Game.jpg'
+              text='Guess Game'
+              details='Object-Oriented Programming, variable declaration, console logging, constructor usage, looping, method invocation and conditional statements.'
+              label='C#'
+              path='https://github.com/Josh-Thalappillil/GuessGame'
               />
             </ul>
           </div>
