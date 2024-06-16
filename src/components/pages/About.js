@@ -19,10 +19,14 @@ function About() {
       <div className='about-contents'>
         <div className='about-text'>
           <h1>Hello, my name is Josh.</h1>
-          <p>As an Associate Software Engineer, I am driven by a passion for technology and its potential to innovate.<br/>
-          My journey began with a deep exploration of programming languages and frameworks, fostering a robust foundation<br/>
-          in computer science. I excel in both independent and collaborative environments, constantly pursuing new challenges<br/>
-          to expand my expertise. Currently, I am advancing my skills as a <b>full-stack software developer</b> at Datacom, applying a<br/> proactive approach to deliver impactful results in the tech industry.</p>
+          <p>
+          As an Associate Software Engineer, I am driven by a passion for technology
+          and its potential to innovate. My journey began with a deep exploration of programming
+          languages and frameworks, fostering a robust foundation in computer science. I excel
+          in both independent and collaborative environments, constantly pursuing new challenges
+          to expand my expertise. Currently, I am advancing my skills as a <b>full-stack software developer</b>
+          at Datacom, applying a proactive approach to deliver impactful results in the tech industry.
+        </p>
           <a className='resume-link' href='./resume/Resume - Josh Thalappillil.pdf' target='_blank'>
             <i className='fa-solid fa-file fa-beat'></i> View Resume
           </a>

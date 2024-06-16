@@ -9,6 +9,11 @@
     padding-bottom: 40px; 
 }
 
+.about-text {
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
 
 .main-wrapper {
     flex: 1; 
@@ -185,4 +190,39 @@
 .resume-link:hover {
     color: white;
     border: 2px solid white;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        padding-bottom: 20px; 
+    }
+
+    .about-content {
+        padding: 2em;
+    }
+
+    .about-contents {
+        flex-direction: column; 
+    }
+
+    .about-contents .about-image {
+        margin-right: 0; 
+        margin-bottom: 20px; 
+        text-align: center; 
+    }
+
+    .about-contents img {
+        max-width: 100%; 
+    }
+
+    .techSkills h1,
+    .workExp h1 {
+        font-size: 1.5rem; 
+        margin-top: 60px;
+    }
+
+    .resume-link {
+        font-size: 14px; 
+        padding: 6px 16px;
+    }
 }
