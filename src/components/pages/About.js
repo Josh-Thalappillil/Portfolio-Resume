@@ -35,7 +35,7 @@ function About() {
         <h1>Technical Skills</h1>
         <div className='underline'></div>
         <ul>
-          <li><strong>Languages:</strong> Python, TypeScript, JavaScript, HTML/CSS, Java</li>
+          <li><strong>Languages:</strong> Python, TypeScript, JavaScript, HTML/CSS, Java, C#</li>
           <li><strong>Frameworks:</strong> Angular, PrimeNG, Django, React, Node.js</li>
           <li><strong>Developer Tools:</strong> Git, VS Code, Visual Studio, IntelliJ, PyCharm</li>
           <li><strong>Libraries:</strong> tsParticles, Bootstrap</li>
