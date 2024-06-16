@@ -19,10 +19,10 @@ function About() {
       <div className='about-contents'>
         <div className='about-text'>
           <h1>Hello, my name is Josh.</h1>
-          <p>I am a passionate software developer, with a hunger for innovation.<br/>
-            I am skilled in a diverse range of programming languages and committed <br/> to continuous learning.
-            I enjoy collaboration and hope to make a  positive <br/> impact through technology. 
-            I am currently a Software Developer at Datacom<br/> where I am improving my skills as a Full Stack Developer.</p>
+          <p>As an Associate Software Engineer, I am driven by a passion for technology and its potential to innovate.<br/>
+          My journey began with a deep exploration of programming languages and frameworks, fostering a robust foundation<br/>
+          in computer science. I excel in both independent and collaborative environments, constantly pursuing new challenges<br/>
+          to expand my expertise. Currently, I am advancing my skills as a <b>full-stack software developer</b> at Datacom, applying a<br/> proactive approach to deliver impactful results in the tech industry.</p>
           <a className='resume-link' href='./resume/Resume - Josh Thalappillil.pdf' target='_blank'>
             <i className='fa-solid fa-file fa-beat'></i> View Resume
           </a>
@@ -35,7 +35,7 @@ function About() {
         <h1>Technical Skills</h1>
         <div className='underline'></div>
         <ul>
-          <li><strong>Languages:</strong> Python, TypeScript, C#, JavaScript, HTML/CSS, Java</li>
+          <li><strong>Languages:</strong> Python, TypeScript, JavaScript, HTML/CSS, Java</li>
           <li><strong>Frameworks:</strong> Angular, PrimeNG, Django, React, Node.js</li>
           <li><strong>Developer Tools:</strong> Git, VS Code, Visual Studio, IntelliJ, PyCharm</li>
           <li><strong>Libraries:</strong> tsParticles, Bootstrap</li>
@@ -49,7 +49,7 @@ function About() {
           <div className='workExpSection'>
             <i className='fa-solid fa-briefcase'></i>
             <h2>Work Experience</h2>
-            <p><strong>Datacom - Graduate Software Developer</strong><br/>Date: 2023 - Present</p>
+            <p><strong>Datacom - Associate Software Developer</strong><br/>Date: 2023 - Present</p>
             <p><strong>Royal Melbourne Hospital - Health Information Manager</strong><br/>Date: 2021 - 2022</p>
             <ul>
               <li></li>
