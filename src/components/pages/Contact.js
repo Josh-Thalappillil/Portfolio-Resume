@@ -15,7 +15,7 @@ function Contact() {
                     <i className="fa-solid fa-envelope fa-beat"></i>
                 </div>
                 <div className='underline'></div>
-                <p>Feel free to email me:<a href='mailto:tjosh@duck.com' style={{ color: 'yellowgreen', textDecoration: 'none', fontWeight:'bold' }}> jthalappillil7@gmail.com</a><br/>Or connect with me on LinkedIn & GitHub</p>
+                <p>Feel free to email me:<a href='mailto:tjosh@duck.com' style={{ color: 'yellowgreen', textDecoration: 'none', fontWeight:'bold' }}> tjosh@duck.com</a><br/>Or connect with me on LinkedIn & GitHub</p>
                 <div class='logo-container'>
                     <a href='https://github.com/Josh-Thalappillil'>
                         <img src='/images/github.png' alt='GitHub Logo' width='50' height='50' style={{ marginRight: '20px'}}/>
