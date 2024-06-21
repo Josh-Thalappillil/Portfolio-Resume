@@ -20,7 +20,7 @@ function About() {
         <div className='about-text'>
           <h1>Hello, my name is Josh.</h1>
           <p>
-          As an Associate Software Engineer, I am driven by a passion for technology
+          As a Software Engineer, I am driven by a passion for technology
           and its potential to innovate. My journey began with a deep exploration of programming
           languages and frameworks, fostering a robust foundation in computer science. I excel
           in both independent and collaborative environments, constantly pursuing new challenges
@@ -53,7 +53,7 @@ function About() {
           <div className='workExpSection'>
             <i className='fa-solid fa-briefcase'></i>
             <h2>Work Experience</h2>
-            <p><strong>Datacom - Associate Software Developer</strong><br/>Date: 2023 - Present</p>
+            <p><strong>Datacom - Software Developer</strong><br/>Date: 2023 - Present</p>
             <p><strong>Royal Melbourne Hospital - Health Information Manager</strong><br/>Date: 2021 - 2022</p>
             <ul>
               <li></li>
