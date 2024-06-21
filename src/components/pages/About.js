@@ -24,8 +24,8 @@ function About() {
           and its potential to innovate. My journey began with a deep exploration of programming
           languages and frameworks, fostering a robust foundation in computer science. I excel
           in both independent and collaborative environments, constantly pursuing new challenges
-          to expand my expertise. Currently, I am advancing my skills as a <b>full-stack software developer</b>
-           at Datacom, applying a proactive approach to deliver impactful results in the tech industry.
+          to expand my expertise. Currently, I am advancing my skills as a <b>full-stack software developer </b>
+          at Datacom, applying a proactive approach to deliver impactful results in the tech industry.
         </p>
           <a className='resume-link' href='./resume/Resume - Josh Thalappillil.pdf' target='_blank'>
             <i className='fa-solid fa-file fa-beat'></i> View Resume
