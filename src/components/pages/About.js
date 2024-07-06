@@ -39,9 +39,9 @@ function About() {
         <h1>Technical Skills</h1>
         <div className='underline'></div>
         <ul>
-          <li><strong>Languages:</strong> Python, TypeScript, JavaScript, HTML/CSS, Java, C#</li>
+          <li><strong>Languages:</strong> Python, TypeScript, JavaScript, HTML, CSS, Java, SQL, Bash</li>
           <li><strong>Frameworks:</strong> Angular, PrimeNG, Django, React, Node.js</li>
-          <li><strong>Developer Tools:</strong> Git, VS Code, Visual Studio, IntelliJ, PyCharm</li>
+          <li><strong>Developer Tools:</strong> Git, VS Code, Visual Studio, IntelliJ IDEA, PyCharm</li>
           <li><strong>Libraries:</strong> tsParticles, Bootstrap</li>
         </ul>
       </div>
@@ -53,7 +53,7 @@ function About() {
           <div className='workExpSection'>
             <i className='fa-solid fa-briefcase'></i>
             <h2>Work Experience</h2>
-            <p><strong>Datacom - Software Developer</strong><br/>Date: 2023 - Present</p>
+            <p><strong>Datacom - Software Developer</strong><br/>Date: 2022 - Present</p>
             <p><strong>Royal Melbourne Hospital - Health Information Manager</strong><br/>Date: 2021 - 2022</p>
             <ul>
               <li></li>
