@@ -40,9 +40,9 @@ function About() {
         <div className='underline'></div>
         <ul>
           <li><strong>Languages:</strong> Python, TypeScript, JavaScript, HTML, CSS, Java, SQL, Bash</li>
-          <li><strong>Frameworks:</strong> Angular, PrimeNG, Django, React, Node.js</li>
+          <li><strong>Frameworks:</strong> Angular, Django, React, Node.js</li>
           <li><strong>Developer Tools:</strong> Git, VS Code, Visual Studio, IntelliJ IDEA, PyCharm</li>
-          <li><strong>Libraries:</strong> tsParticles, Bootstrap</li>
+          <li><strong>Libraries:</strong> Playwright, tsParticles, Bootstrap, ReactRouter, PrimeNG</li>
         </ul>
       </div>
       <div className='workExp'>
