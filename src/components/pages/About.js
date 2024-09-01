@@ -20,12 +20,14 @@ function About() {
         <div className='about-text'>
           <h1>Hello, my name is Josh.</h1>
           <p>
-          As a Software Engineer, I am driven by a passion for technology
-          and its potential to innovate. My journey began with a deep exploration of programming
-          languages and frameworks, fostering a robust foundation in computer science. I excel
-          in both independent and collaborative environments, constantly pursuing new challenges
-          to expand my expertise. Currently, I am advancing my skills as a <b>full-stack software developer </b>
-          at Datacom, applying a proactive approach to deliver impactful results in the tech industry.
+          As a self-taught Software Engineer, my journey began with a fascination for web development,
+          starting with HTML, CSS, and JavaScript. Driven by an eagerness to learn, I completed a
+          bootcamp through the Odin Project, where I honed my skills by building websites and
+          mastering Python. This foundation led me to pursue more complex challenges, ultimately
+          securing a role as a <b>full-stack software developer </b>
+          at Datacom. Currently, I am working with Django and Angular to build robust, scalable solutions. My passion for
+          technology and commitment to continuous learning fuel my drive to excel in the ever-evolving tech industry. 
+          Whether working independently or in a team, I am dedicated to delivering impactful results and expanding my expertise with every project.
         </p>
           <a className='resume-link' href='./resume/Resume - Josh Thalappillil.pdf' target='_blank'>
             <i className='fa-solid fa-file fa-beat'></i> View Resume
@@ -53,7 +55,7 @@ function About() {
           <div className='workExpSection'>
             <i className='fa-solid fa-briefcase'></i>
             <h2>Work Experience</h2>
-            <p><strong>Datacom - Software Developer</strong><br/>Date: 2022 - Present</p>
+            <p><strong>Datacom - Software Developer</strong><br/>Date: 2023 - Present</p>
             <p><strong>Royal Melbourne Hospital - Health Information Manager</strong><br/>Date: 2021 - 2022</p>
             <ul>
               <li></li>
