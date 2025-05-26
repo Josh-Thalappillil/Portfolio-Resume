@@ -14,7 +14,7 @@ function Cards() {
           <div className='cards__wrapper'>
             <ul className='cards__items'>
             <CardItem 
-              src='images/11-11.PNG'
+              src='images/11-11.png'
               text='Freelance - 11.11 Artistry Studio'
               details='Built and deployed website with Acuity embedded for booking appointments, and integrated Stripe for payment processing. Utilised HTML, CSS, and TypeScript (Angular) to create a responsive and user-friendly interface.'
               label='HTML & CSS, TS, Angular'
