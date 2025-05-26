@@ -14,11 +14,11 @@ function Cards() {
           <div className='cards__wrapper'>
             <ul className='cards__items'>
             <CardItem 
-              src='images/SnakeGame.jpg'
-              text='Snake Game'
-              details='Demonstrated understanding of DOM Manipulation, variable and data manipulation, structured code, event handling and game logic.'
-              label='HTML & CSS, JS'
-              path='https://josh-thalappillil.github.io/SnakeGame/'
+              src='images/11-11.PNG'
+              text='Freelance - 11.11 Artistry Studio'
+              details='Built and deployed website with Acuity embedded for booking appointments, and integrated Stripe for payment processing. Utilised HTML, CSS, and TypeScript (Angular) to create a responsive and user-friendly interface.'
+              label='HTML & CSS, TS, Angular'
+              path='https://11-11artistry.studio'
               />
               <CardItem 
               src='images/pokedex.png'
@@ -31,11 +31,11 @@ function Cards() {
             </ul>
             <ul className='cards__items'>
               <CardItem 
-              src='images/LottoCheck.jpg'
-              text='Lotto Check'
-              details='Guess 3 lottery numbers and return how many numbers were correct. Utilisation of Object Oriented Programming.'
-              label='Java'
-              path='https://github.com/Josh-Thalappillil/LottoCheck'
+              src='images/SnakeGame.jpg'
+              text='Snake Game'
+              details='Demonstrated understanding of DOM Manipulation, variable and data manipulation, structured code, event handling and game logic.'
+              label='HTML & CSS, JS'
+              path='https://josh-thalappillil.github.io/SnakeGame/'
               />
               <CardItem 
               src='images/Guess-Game.jpg'
