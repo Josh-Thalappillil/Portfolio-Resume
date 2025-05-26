@@ -25,7 +25,7 @@ function Cards() {
               text='Pokedex'
               details='Demonstrated proficiency in JavaScript, HTML & CSS. Proficiency in leveraging APIs, handling asynchronous operations, and dynamically rendering data to create an interactive web application showcasing Pokemon information.'
               label='HTML & CSS, JS'
-              path='https://pokedex-one-kappa-18.vercel.app/'
+              path='https://github.com/Josh-Thalappillil/pokedex'
               />
               
             </ul>

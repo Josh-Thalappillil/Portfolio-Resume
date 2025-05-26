@@ -66,10 +66,11 @@ function About() {
           <div className='educationSection'>
             <i class="fa-solid fa-graduation-cap"></i>
             <h2>Education & Training</h2>
+            <p><strong>University of Helsinki - Java Programming</strong><br/>Date: 2023</p>
             <p><strong>The Odin Project Coding Bootcamp</strong><br/>Date: 2022</p>
             <p><strong>La Trobe University - Double Bachelor's Degree of Information Management & Health Sciences</strong><br/>Date: 2018 - 2021</p>
-            <p><strong>Skillsoft Percipio - Training Platform</strong></p>
-            <a class='creds' href='https://skillsoft.digitalbadges.skillsoft.com/profile/joshthalappillil/wallet'>View Completed Credentials</a>
+            {/* <p><strong>Skillsoft Percipio - Training Platform</strong></p> */}
+            {/* <a class='creds' href='https://skillsoft.digitalbadges.skillsoft.com/profile/joshthalappillil/wallet'>View Completed Credentials</a> */}
           </div>
         </div>
       </div>
